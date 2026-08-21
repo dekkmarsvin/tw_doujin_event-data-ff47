@@ -14,3 +14,9 @@
 - Transformation: HTML table rows normalized to `{ day, code, name }`, with source URL and fetch metadata retained. Parsing fails closed on missing tables, non-200 responses and implausible row counts.
 
 No community workbook fields are merged into this file.
+
+## `map.json`
+
+- Source artifact: the vector layout previously published by `dekkmarsvin/tw_doujin_event`.
+- Transformation: the site's authoring workflow records normalized booth rectangles, structural landmarks and accessibility labels; the organizer's original floor-plan image is not embedded or redistributed.
+- Validation: the layout is accepted only after the event-specific row, slot, pillar and access-point checks pass.
