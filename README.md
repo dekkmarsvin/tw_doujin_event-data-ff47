@@ -4,7 +4,7 @@ Sanitized, provenance-tracked data used by [`dekkmarsvin/tw_doujin_event`](https
 
 This repository intentionally contains only:
 
-- `event.json`: the versioned event definition.
+- `event.json`: the versioned event definition, including its provenance-linked organizer category catalog.
 - `official-booths.json`: booth assignments transcribed from the organizer's published daily lists.
 - `map.json`: the repository-authored vector layout published by the code repository's map authoring workflow.
 - `PROVENANCE.md`: source and transformation notes.

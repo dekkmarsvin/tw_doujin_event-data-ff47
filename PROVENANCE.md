@@ -4,7 +4,9 @@
 
 - Event: Fancy Frontier 47
 - Organizer event page: <https://www.f-2.com.tw/ff47%E4%B8%89%E6%97%A5%E6%94%A4%E4%BD%8D%E7%B7%A8%E8%99%9F%E5%85%AC%E4%BD%88/>
-- Repository-authored fields: schema version, adapter identifier, UI labels, normalized timestamps and area identifiers.
+- Organizer circle category page: <https://www.f-2.com.tw/%E7%A4%BE%E5%9C%98%E4%B8%BB%E9%A1%8C%E9%A1%9E%E5%88%A5/> (retrieved 2026-08-21)
+- Category transformation: the fourteen organizer-published top-level subject labels are retained; descriptions are concise repository-authored paraphrases. Orientation, subcategories, sale-item types and event-specific RF/FFK options are not imported into FF47's primary category selector.
+- Repository-authored fields: schema version, adapter identifier, stable category ids, concise category descriptions, UI labels, normalized timestamps and area identifiers.
 
 ## `official-booths.json`
 
