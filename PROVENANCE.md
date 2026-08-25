@@ -7,7 +7,7 @@
 - Repository-authored fields: schema version, adapter identifier, normalized timestamps, area identifiers, organizer roles, category selection, and venue-space assignments.
 - Organizer, category catalog, venue, and venue-space facts are resolved only from the immutable commit and per-file hashes in `reference-data-pin.json`.
 
-## `reference-data-pin.json`
+## `reference-data-pin.json` (`reference-data-pin/2`)
 
 - Organizer and category source: <https://www.f-2.com.tw/> and <https://www.f-2.com.tw/%E7%A4%BE%E5%9C%98%E4%B8%BB%E9%A1%8C%E9%A1%9E%E5%88%A5/>
 - Venue source: <https://www.expopark.taipei/FieldInfo_Detail.aspx?n=205&s=1>
