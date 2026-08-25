@@ -1,0 +1,46 @@
+{
+  "schema": "reference-data-pin/1",
+  "eventId": "ff47",
+  "repository": "dekkmarsvin/tw_doujin_event-reference-data",
+  "commit": "e1f518fd63402e7feaff52dda904525cc0657da9",
+  "files": [
+    {
+      "path": "data/category-catalogs/frontier-anime/circle-topics/2026-08-25.json",
+      "sha256": "94af076b77c08cdd5f28875b7578c86892242e991a4deb212194c8c7a50f60e3"
+    },
+    {
+      "path": "data/organizers/frontier-anime.json",
+      "sha256": "72b920e6aea5fc61f0675cff5dde59f8b6eb9e6ec25a61da24afc1e434e5aef2"
+    },
+    {
+      "path": "data/venue-spaces/zhengyan-exhibition-area.json",
+      "sha256": "f90fe419e34852637bee4078cdcb8f009b9602b40ea19273f543c32cce450b1e"
+    },
+    {
+      "path": "data/venues/taipei-expo-park-zhengyan-hall.json",
+      "sha256": "b7a5c3be4758db71a264bbf994b57329c377abcea68f5e7edefd288494c2e244"
+    }
+  ],
+  "selection": {
+    "organizer": {
+      "id": "frontier-anime",
+      "path": "data/organizers/frontier-anime.json"
+    },
+    "categoryCatalog": {
+      "id": "circle-topics",
+      "organizerId": "frontier-anime",
+      "revision": "2026-08-25",
+      "path": "data/category-catalogs/frontier-anime/circle-topics/2026-08-25.json"
+    },
+    "venue": {
+      "id": "taipei-expo-park-zhengyan-hall",
+      "path": "data/venues/taipei-expo-park-zhengyan-hall.json"
+    },
+    "venueSpaces": [
+      {
+        "id": "zhengyan-exhibition-area",
+        "path": "data/venue-spaces/zhengyan-exhibition-area.json"
+      }
+    ]
+  }
+}

@@ -4,9 +4,15 @@
 
 - Event: Fancy Frontier 47
 - Organizer event page: <https://www.f-2.com.tw/ff47%E4%B8%89%E6%97%A5%E6%94%A4%E4%BD%8D%E7%B7%A8%E8%99%9F%E5%85%AC%E4%BD%88/>
-- Organizer circle category page: <https://www.f-2.com.tw/%E7%A4%BE%E5%9C%98%E4%B8%BB%E9%A1%8C%E9%A1%9E%E5%88%A5/> (retrieved 2026-08-21)
-- Category transformation: the fourteen organizer-published top-level subject labels are retained; descriptions are concise repository-authored paraphrases. Orientation, subcategories, sale-item types and event-specific RF/FFK options are not imported into FF47's primary category selector.
-- Repository-authored fields: schema version, adapter identifier, stable category ids, concise category descriptions, UI labels, normalized timestamps and area identifiers.
+- Repository-authored fields: schema version, adapter identifier, normalized timestamps, area identifiers, organizer roles, category selection, and venue-space assignments.
+- Organizer, category catalog, venue, and venue-space facts are resolved only from the immutable commit and per-file hashes in `reference-data-pin.json`.
+
+## `reference-data-pin.json`
+
+- Organizer and category source: <https://www.f-2.com.tw/> and <https://www.f-2.com.tw/%E7%A4%BE%E5%9C%98%E4%B8%BB%E9%A1%8C%E9%A1%9E%E5%88%A5/>
+- Venue source: <https://www.expopark.taipei/FieldInfo_Detail.aspx?n=205&s=1>
+- The pin selects the reviewed `frontier-anime` organizer, its immutable `circle-topics@2026-08-25` catalog, `taipei-expo-park-zhengyan-hall`, and `zhengyan-exhibition-area`.
+- The selected reference commit and every consumed JSON file are fixed by SHA; missing or mismatched data must fail closed.
 
 ## `official-booths.json`
 
