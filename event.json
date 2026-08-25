@@ -1,8 +1,7 @@
 {
-  "schema": "event-definition/2",
+  "schema": "event-definition/3",
   "id": "ff47",
   "name": "Fancy Frontier 47",
-  "venue": "花博公園爭豔館",
   "dateRangeLabel": "8.21–23",
   "dataUpdatedAt": "2026-08-21T00:00:00.000+08:00",
   "eventEndsAt": "2026-08-23T23:59:59.999+08:00",
@@ -18,31 +17,22 @@
     { "id": "A", "label": "A–K 區", "shortLabel": "A–K" },
     { "id": "B", "label": "L–W 區", "shortLabel": "L–W" }
   ],
-  "circleCategories": {
-    "schema": "circle-category-catalog/1",
-    "source": {
-      "provider": "開拓動漫事業有限公司",
-      "url": "https://www.f-2.com.tw/%E7%A4%BE%E5%9C%98%E4%B8%BB%E9%A1%8C%E9%A1%9E%E5%88%A5/",
-      "retrievedAt": "2026-08-21T00:00:00.000+08:00"
-    },
-    "categories": [
-      { "id": "original", "label": "原創作品", "description": "社團自行創作、不是由既有商業作品衍生的內容。" },
-      { "id": "anime-comics", "label": "總合動漫畫", "description": "以漫畫、小說或動畫作品為主題的衍生創作。" },
-      { "id": "vtuber", "label": "Vtuber", "description": "以虛擬人物創作者為主題的原創或衍生創作。" },
-      { "id": "games", "label": "總合遊戲", "description": "以遊戲為主題的衍生創作；東方Project與蔚藍檔案使用各自類別。" },
-      { "id": "blue-archive", "label": "蔚藍檔案", "description": "以蔚藍檔案系列為主要題材的衍生創作。" },
-      { "id": "touhou-project", "label": "東方Project", "description": "以東方Project系列為主要題材的衍生創作。" },
-      { "id": "cosplay-photo", "label": "Cosplay寫真", "description": "以Cosplay拍立得、寫真或影像媒體為主要販售內容。" },
-      { "id": "handmade-props", "label": "手作．道具", "description": "手製飾品、布偶、小物或Cosplay道具等內容。" },
-      { "id": "model-doll", "label": "模型．DOLL", "description": "立體與3D創作、模型套件、人形或娃衣等內容。" },
-      { "id": "furry", "label": "獸人", "description": "以獸人或人外角色為主要題材的作品。" },
-      { "id": "screen-media", "label": "影視媒體", "description": "樂團、偶像、歌手、特攝、真人影視或聲優等相關內容。" },
-      { "id": "chinese-language-derivatives", "label": "布袋戲&華語系作品總合衍生", "description": "以華語或台灣本土作品為題材的衍生創作。" },
-      { "id": "school-club", "label": "學校漫研", "description": "由各級學校動漫畫相關社團名義參加。" },
-      { "id": "other", "label": "其他", "description": "不屬於以上主題類別的內容。" }
-    ]
+  "organizerAssignments": [
+    { "organizerId": "frontier-anime", "role": "lead" }
+  ],
+  "categoryCatalog": {
+    "organizerId": "frontier-anime",
+    "id": "circle-topics",
+    "revision": "2026-08-25"
   },
-  "organizer": {
+  "venueAssignments": [
+    {
+      "venueId": "taipei-expo-park-zhengyan-hall",
+      "venueSpaceId": "zhengyan-exhibition-area",
+      "areaIds": ["ALL", "A", "B"]
+    }
+  ],
+  "officialData": {
     "adapter": "f2-wordpress-booth-table/1",
     "eventUrl": "https://www.f-2.com.tw/ff47%E4%B8%89%E6%97%A5%E6%94%A4%E4%BD%8D%E7%B7%A8%E8%99%9F%E5%85%AC%E4%BD%88/",
     "boothListUrls": {
